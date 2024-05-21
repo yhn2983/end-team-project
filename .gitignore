@@ -1,0 +1,94 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node artifact files
+express-team/dev.env
+express-team/public/avatar
+express-team/routes/important.sql
+express-team/routes/ws-chat.js
+express-team/routes/ws-draw.js
+express-team/views
+
+#data
+express-team/data/firebase-google
+
+# dependencies
+express-team/node_modules
+express-team/.pnp
+express-team/.pnp.js
+
+# testing
+express-team/coverage
+
+# production
+express-team/build
+
+# misc
+express-team/.DS_Store
+express-team/.env.local
+express-team/.env.development.local
+express-team/.env.test.local
+express-team/.env.production.local
+# /sessions
+
+express-team/npm-debug.log*
+express-team/yarn-debug.log*
+express-team/yarn-error.log*
+express-team/.temp
+express-team/seeds-tmp
+
+express-team/package-lock.json
+express-team/yarn.lock
+express-team/data/json/faker-users.json
+express-team/testotp.js
+express-team/data/json/fake-product.json
+express-team/.env
+
+express-team/make-product-sample.js
+express-team/data/product-n2m.sql
+express-team/data/test_sql
+
+# next-team/
+next-team/.vscode
+
+# img
+next-team/public/img
+
+# dependencies
+next-team/node_modules
+next-team/.pnp
+next-team/.pnp.js
+
+
+# testing
+next-team/coverage
+
+# next.js
+next-team/.next/
+next-team/out/
+
+# production
+next-team/build
+
+# misc
+next-team/.DS_Store
+next-team/*.pem
+
+# debug
+next-team/npm-debug.log*
+next-team/yarn-debug.log*
+next-team/yarn-error.log*
+
+# local env files
+next-team/.env*.local
+
+# vercel
+next-team/.vercel
+
+# typescript
+next-team/*.tsbuildinfo
+next-team/next-env.d.ts
+
+# misc
+next-team/package-lock.json
+next-team/yarn.lock
+next-team/.temp/
