@@ -10,6 +10,7 @@ express-team/views
 
 #data
 express-team/data/firebase-google
+express-team/data/firebase-facebook
 
 # dependencies
 express-team/node_modules
@@ -92,3 +93,6 @@ next-team/next-env.d.ts
 next-team/package-lock.json
 next-team/yarn.lock
 next-team/.temp/
+
+#hooks
+next-team/hooks/firebase-config.js
