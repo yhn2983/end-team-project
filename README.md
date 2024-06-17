@@ -5,4 +5,7 @@
 將檔案下載後，先在主控台輸入 npm install，安裝所需要的node_module，  
 接著在主控台輸入 npm run dev 讓程式開始運行 
 ### 前端使用Next.js   
-使用fetch獲取後端API，來與後端進行互動
+使用fetch獲取後端API，來與後端進行互動  
+將檔案下載後，先在主控台輸入 npm install，安裝所需要的node_module，  
+接著在主控台輸入 npm run dev 讓程式開始運行，  
+注意，運行時請記得先運行後端程式，否則網站無法運行
