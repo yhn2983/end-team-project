@@ -24,4 +24,4 @@ project_end(1).sql為資料庫的sql，將其匯入MySQL中即可使用。
 ### 三、賣家議價功能   
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B3%A3%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)   
 ### 四、訂單呈現
-![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B3%A3%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)   
+![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%A8%82%E5%96%AE%E9%A0%81%E9%9D%A2.png)   
