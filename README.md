@@ -23,7 +23,8 @@ project_end(1).sql為資料庫的sql，將其匯入MySQL中即可使用。
 點選"議價按鈕"，則用fetch方式將資料送去後端，並存入議價資料表。  
 點選"結帳按鈕"，用fetch方式將資料送去後端，並存入訂單資料表。
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E7%B5%90%E5%B8%B3%E9%A0%81%E9%9D%A2.png)  
-### 二、買家議價功能   
+### 二、買家議價功能    
+
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B2%B7%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)  
 ### 三、賣家議價功能   
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B3%A3%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)   
