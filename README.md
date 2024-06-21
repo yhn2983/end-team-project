@@ -37,6 +37,6 @@ project_end(1).sql為資料庫的sql，將其匯入MySQL中即可使用。
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B3%A3%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)   
 ### 四、訂單呈現   
 用useState預設訂單資料(data)，  
-使用useEffect使進入頁面時，去後端fetch符合賣家id的定訂單資料，在抓取到資料後，用setData修改useState的預設資料。  
-
+使用useEffect使進入頁面時，去後端fetch符合賣家id的定訂單資料，在抓取到資料後，用setData修改useState的預設資料。   
+最後用array.filter()將資料以未寄送、未完成、已完成等條件做篩選，最後用array.map()將資料呈現。  
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%A8%82%E5%96%AE%E9%A0%81%E9%9D%A2.png)   
