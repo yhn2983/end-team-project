@@ -29,7 +29,11 @@ project_end(1).sql為資料庫的sql，將其匯入MySQL中即可使用。
 當點選個筆議價資料的"結帳"按鈕時，使用動態路由[id].js連結到個別議價資料的結帳頁面進行結帳。  
 當點選"取消"按鈕時，進入fetch後端的delete api，將該筆議價資料刪除。  
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B2%B7%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)  
-### 三、賣家議價功能   
+### 三、賣家議價功能    
+先用useState將預設的議價資料設為空陣列，  
+使用useEffect使進入頁面時，去後端fetch符合賣家id的議價資料，   
+當點選個筆議價資料的"回覆"按鈕時，使用動態路由[id].js連結到個別商品議價資料的結回覆頁面進行回覆(如下圖)。  
+
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%B3%A3%E5%AE%B6%E8%AD%B0%E5%83%B9%E9%A0%81%E9%9D%A2.png)   
 ### 四、訂單呈現
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%A8%82%E5%96%AE%E9%A0%81%E9%9D%A2.png)   
