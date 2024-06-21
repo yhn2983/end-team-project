@@ -40,5 +40,13 @@ project_end(1).sql為資料庫的sql，將其匯入MySQL中即可使用。
 使用useEffect使進入頁面時，去後端fetch符合賣家id的定訂單資料，在抓取到資料後，用setData修改useState的預設資料。   
 最後用array.filter()將資料以未寄送、未完成、已完成等條件做篩選，最後用array.map()將資料呈現。  
 ![image](https://github.com/yhn2983/end-team-project/blob/main/%E8%A8%82%E5%96%AE%E9%A0%81%E9%9D%A2.png)     
-### 五、評價功能  
+### 五、評價功能   
+使用Array(5).fill(1).map((v, i)=>{})生出五個星星，並設定每個星星的分數為i+1   
+用const [rating, setRating] = useState(0)來記錄評分  
+用const [hoverRating, setHoverRating] = useState(0)來記錄滑鼠懸停在第幾個星星   
+用const [formData, setFormData] = useState({})來儲存最終的表單資料
+設定兩個事件，分別為 onMouseEnter和onClick。  
+當滑鼠onMouseEnter某個星星時，取得該星星的分數(setHoverRating)，並且讓分數小於該星星的呈現黃色  
+當滑鼠onClick某個星星後，取得該星星的分數(setRating)，設定為評價的分數，並且同時更新表單資料(setFormData)
+最後，當點選按鈕時  
 ![image](https://github.com/yhn2983/end-team-project/blob/main/evaluateFlexClip.gif)
