@@ -48,5 +48,5 @@ project_end(1).sql為資料庫的sql，將其匯入MySQL中即可使用。
 設定兩個事件，分別為 onMouseEnter和onClick。  
 當滑鼠onMouseEnter某個星星時，取得該星星的分數(setHoverRating)，並且讓分數小於該星星的呈現黃色  
 當滑鼠onClick某個星星後，取得該星星的分數(setRating)，設定為評價的分數，並且同時更新表單資料(setFormData)
-最後，當點選按鈕時  
+最後，當點選"送出評論"按鈕時，將formData用fetch送去後端。  
 ![image](https://github.com/yhn2983/end-team-project/blob/main/evaluateFlexClip.gif)
